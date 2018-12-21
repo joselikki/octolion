@@ -1,4 +1,4 @@
 # octolion
 Online Shop project 
 
-Express course project
+Nodejs - Express course project
