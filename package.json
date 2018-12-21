@@ -1,7 +1,7 @@
 {
   "name": "ecomerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nodejs-express course project",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index",
@@ -10,7 +10,7 @@
     "test": "mocha --exit"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jose Miguel Paredes jozemparedes@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@sentry/node": "^4.4.2",
