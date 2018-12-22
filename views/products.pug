@@ -2,13 +2,13 @@ extends layout.pug
 
 block hero
     section.hero.is-dark.is-bold
-        .hero-body   
+        .hero-body.main-hero   
             .container
                 h1.title Octolion shop
                 h2.subtitle Find the best products at the best price
 
 block content   
-    .container(style="flex:1; padding: 50px;")
+    .container(style="flex:1; padding: 40px 20px;")
         .columns.is-multiline
             each product in products
                 .column.is-one-quarter

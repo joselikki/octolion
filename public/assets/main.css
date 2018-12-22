@@ -15,12 +15,22 @@ body {
 }
 
 .main-hero {
+  height: 400px;
   position: relative;
   background: url("/static/images/hero-bg.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
 }
-
+.nav-links{
+  display: flex;
+}
+.nav-links li{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-links a {
+  color:  white;
+}
 .main-hero::before {
   position: absolute;
   content: "";
