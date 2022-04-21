@@ -1,4 +1,5 @@
 # octolion
-Online Shop project 
 
-Nodejs - Express course project
+### Online Store project
+
+Developed with NodeJs, Express and Pug 
