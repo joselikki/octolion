@@ -3,8 +3,7 @@ const Sentry = require('@sentry/node')
 const boom = require('boom')
 const isRequestAjaxOrApi = require('../../utils/isRequestAjaxOrApi')
 
-Sentry.init({ dsn: `https://${config.sentryDns}@sentry.io/${config.sentryId}` })
-
+Sentry.init({ dsn: `https://${config.sentryDns}@o215214.ingest.sentry.io/${config.sentryId}` })
 
 
 function withErrorStack(err, stack){
