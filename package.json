@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@sentry/node": "^4.4.2",
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.18.3",
     "boom": "^7.3.0",
     "dotenv": "^6.2.0",
@@ -26,13 +26,13 @@
     "passport": "^0.4.0",
     "passport-http": "^0.3.0",
     "passport-jwt": "^4.0.0",
-    "pug": "^2.0.3"
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "chalk": "^2.4.1",
     "clean-css-cli": "^4.2.1",
-    "mocha": "^5.2.0",
-    "nodemon": "^1.18.8",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
     "proxyquire": "^2.1.0",
     "sinon": "^7.2.2",
     "supertest": "^3.3.0"
